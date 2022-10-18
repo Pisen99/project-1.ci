@@ -16,13 +16,43 @@ h1, h2 {
 h3, p {
     font-family: 'Roboto', sans-serif;
     color: #54655A;
+    letter-spacing: 2px;
 }
 
 .container {
     width: 100%;
-    height: 600px;
+    height: 750px;
 
     background-color: rgb(189, 161, 215);
+}
+
+.container h2 {
+    margin-top: 10px;
+    
+    font-size: 250%;
+
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-decoration-thickness: 2.5px;
+    text-align: center;
+}
+
+.container-1 {
+    width: 100%;
+    height: 1400px;
+
+    background-color: rgb(189, 161, 215);
+}
+
+.container-1 h2 {
+    margin-top: 10px;
+    
+    font-size: 250%;
+
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-decoration-thickness: 2.5px;
+    text-align: center;
 }
 
 hr {
@@ -56,7 +86,7 @@ hr {
 
 #menu li {
     display: inline-block;
-    padding: 0 10px;
+    margin: 0 10px;
 }
 
 a {
@@ -103,4 +133,60 @@ a {
     font-size: 100%;
     font-family: 'Amatic SC', cursive;
     color: #fffaf1;
+}
+
+/* About section, text and image */
+#about-image-left {
+    margin-top: 80px;
+    margin-left: 10px;
+    width: 48%;
+    float: left;
+}
+
+#about-image-left img {
+    width: 100%;
+    opacity: 0.8;
+}
+
+#about-right {
+    margin-top: 130px;
+    margin-right: 5px;
+    width: 48%;
+    float: right;
+
+    line-height: 2;
+}
+
+#about-right h2 {
+    font-size: 250%;
+    margin: 0;
+
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-decoration-thickness: 2.5px;
+    text-align: center;
+}
+
+/* Activities section and iframe videos  */
+#activities {
+    width: 100%;
+    
+}
+
+#activities iframe {
+    width: 70%;
+    height: 450px;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+#summer, h3, p {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+#winter, h3, p {
+    margin-left: 100px;
+    margin-right: 100px;
 }
