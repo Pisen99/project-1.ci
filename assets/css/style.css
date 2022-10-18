@@ -41,7 +41,7 @@ h3, p {
     margin: 0 auto;
     text-align: center;
     width: 100%;
-    height: 1600px;
+    height: 1100px;
 }
 
 .container-1 h2 {
@@ -173,16 +173,34 @@ a {
 /* Activities section and iframe videos  */
 #activities {
     width: 100%;
+
 }
 
-#activities iframe {
-    width: 70%;
-    height: 450px;
+#video-left {
+    width: 39%;
+    height: 320px;
+    margin: 30px auto 90px 90px;
+
+    clear: both;
+    
+    float: left;
+}
+
+#video-right {
+    width: 39%;
+    height: 320px;
+    margin: 30px 90px 90px auto;
+
+    clear: both;
+    
+    float: right;
+
 }
 
 #summer, #winter {
-    width: 70%;
-    margin: 30px auto 90px auto;
+    width: 40%;
+    margin: 30px 90px 90px auto;
+    float: right;
     text-align: left;
     
     line-height: 2;
