@@ -77,10 +77,22 @@ h3, p {
 }
 
 .container-2 {
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     width: 100%;
     height: auto;
+}
+
+.container-2 h2 {
+    margin-top: 10px;
+    
+    font-size: 250%;
+
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-decoration-thickness: 2.5px;
+    text-align: center;
 }
 
 hr {
@@ -242,17 +254,15 @@ a {
 
 /* Dining section and iframe instagram */
 .restaurants {
-    width: 30%;
+    width: 26%;
     display: inline-block;
     text-align: center;
-    margin: 0 auto;
 }
 
 .restaurants iframe {
     width: auto;
     height: 400px;
     margin: 0 20px 0 20px;
-    border: 0;
 }
 
 .restaurants h3 {
