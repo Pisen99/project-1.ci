@@ -209,9 +209,9 @@ a {
     width: 39%;
     height: 320px;
     margin: 30px auto 90px 90px;
-
-    clear: both;
     
+    border: 0;
+    clear: both;
     float: left;
 }
 
@@ -220,6 +220,7 @@ a {
     height: 320px;
     margin: 30px 90px 90px auto;
 
+    border: 0;
     clear: both;
     
     float: right;
@@ -251,6 +252,7 @@ a {
     width: auto;
     height: 400px;
     margin: 0 20px 0 20px;
+    border: 0;
 }
 
 .restaurants h3 {
