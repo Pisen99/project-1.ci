@@ -4,7 +4,6 @@
 element.style {
     margin-left: auto;
     margin-right: auto;
-    min-width: 320px;
 }
 
 header {
@@ -81,7 +80,7 @@ h3, p {
     margin-right: auto;
     text-align: center;
     width: 100%;
-    height: auto;
+    height: 1000px;
 }
 
 .container-2 h2 {
@@ -262,7 +261,6 @@ a {
 .restaurants iframe {
     width: auto;
     height: 400px;
-    margin: 0 20px 0 20px;
 }
 
 .restaurants h3 {
@@ -270,11 +268,51 @@ a {
 }
 
 .restaurants p {
-    width: 90%;
+    width: 80%;
     line-height: 2;
+    margin: 0 auto;
 }
 
-.description {
+/* Signup forms and social media links */
+.container-3 {
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+    text-align: center;
+    width: 100%;
+}
+
+.container-3 h2 {
+    margin-top: 10px;
+    
+    font-size: 250%;
+
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-decoration-thickness: 2.5px;
+}
+
+#form-section {
+    margin-top: 50px;
     margin: 0 auto;
     text-align: center;
+    width: 50%;
+}
+
+.space {
+    width: 100%;
+    margin: 10px;
+    border: none;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-input {
+    font-weight: bold;
+}
+
+#button {
+    background-color: black;
 }
