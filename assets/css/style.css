@@ -1,20 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto:wght@300&display=swap');
 
 /* Basic styling */
+element.style {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 320px;
+}
+
 header {
-    outline: 1px solid;
+    outline: 0;
     background: rgb(255, 250, 241);
     position: fixed;
     left: 0px;
-    top: 0;
+    top: 0px;
     width: 100%;
-    z-index: 1;
+    z-index: 100;
+    opacity: 0.5;
 }
 
 body {
     margin: 0;
     padding: 0;
 
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+    
     background-color: #fffaf1;
 }
 
@@ -63,6 +74,13 @@ h3, p {
     text-decoration: underline;
     text-decoration-thickness: 2.5px;
     text-align: center;
+}
+
+.container-2 {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    height: auto;
 }
 
 hr {
@@ -114,7 +132,7 @@ a {
     width: 100%;
     height: 420px;
     margin: 0;
-    margin-top: 90px;
+    margin-top: 100px;
 
     overflow: hidden;
     opacity: 0.8;
@@ -182,7 +200,7 @@ a {
 }
 
 /* Activities section and iframe videos  */
-#activities {
+.activities {
     width: 100%;
 
 }
@@ -222,29 +240,29 @@ a {
 }
 
 /* Dining section and iframe instagram */
-#restaurants {
+.restaurants {
     width: 30%;
     display: inline-block;
     text-align: center;
     margin: 0 auto;
 }
 
-#restaurants iframe {
+.restaurants iframe {
     width: auto;
     height: 400px;
     margin: 0 20px 0 20px;
 }
 
-#restaurants h3 {
+.restaurants h3 {
     letter-spacing: 2px;
 }
 
-#restaurants p {
+.restaurants p {
     width: 90%;
     line-height: 2;
 }
 
-#description p {
+.description {
     margin: 0 auto;
     text-align: center;
 }
