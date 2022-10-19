@@ -297,6 +297,7 @@ a {
     margin: 0 auto;
     text-align: center;
     width: 50%;
+    height: 300px;
 }
 
 .space {
@@ -306,13 +307,28 @@ a {
 }
 
 .form-label {
+    display: block;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     font-weight: bold;
 }
 
 .form-input {
-    font-weight: bold;
+    width: 50%;
 }
 
 #button {
-    background-color: black;
+    width: 30%;
+    height: 50px;
+    text-transform: uppercase;
+    border-radius: 25px 25px;
+    color: #fffaf1;
+    background-color: #54655A;
 }
+
+#button:hover {
+    background-color: #80BA4D;
+}
+
