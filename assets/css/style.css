@@ -346,7 +346,7 @@ footer {
 }
 
 /* Media queries */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
     header {
         width: 100%;
         height: auto;
@@ -414,8 +414,7 @@ footer {
 
     #dining {
         width: 100%;
-        height: 800px;
-        display: block;
+        height: auto;
     }
 
     #dining h2 {
@@ -424,16 +423,31 @@ footer {
         margin: 0;
     }
 
-    .restaurants img {
-        width: 10vh;
-        height: 20vh;
-        display: inline-block;
+    .restaurants {
+        width: 100%;
     }
 
     .rest-text {
         width: 100%;
         height: auto;
         margin: 0;
-        font-size: 1px;
+
+        font-size: 2vh;
+        text-align: left;
+    }
+
+    #signup {
+        width: 100%;
+        height: auto;
+        margin-top: 1500px;
+    }
+
+    #form-section {
+        width: 100%;
+        height: auto;
+    }
+
+    #gap {
+        padding-bottom: 0;
     }
 }
