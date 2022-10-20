@@ -371,4 +371,69 @@ footer {
         margin: 0;
         height: 20vh;
     }
+
+    #cover-text {
+        margin: 30px;
+        font-size: 3vh;
+    }
+
+    #about {
+        width: 100%;
+        height: auto;
+    }
+
+    #about-image-left img {
+        width: 50vh;
+        height: 50vh;
+    }
+
+    #about-right {
+        margin: 0;
+        width: 100%;
+        text-align: left;
+        font-size: 2vh;
+    }
+
+    #activities-1 {
+        width: 100%;
+        height: auto;
+    }
+
+    #activities-1 iframe {
+        width: 100%;
+        height: 20%;
+        margin: 0;
+    }
+
+    #summer, #winter {
+        margin: 0;
+        width: 100%;
+        text-align: left;
+        font-size: 2vh;
+    }
+
+    #dining {
+        width: 100%;
+        height: 800px;
+        display: block;
+    }
+
+    #dining h2 {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .restaurants img {
+        width: 10vh;
+        height: 20vh;
+        display: inline-block;
+    }
+
+    .rest-text {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        font-size: 1px;
+    }
 }
