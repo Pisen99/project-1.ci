@@ -14,7 +14,7 @@ header {
     top: 0px;
     width: 100%;
     z-index: 100;
-    opacity: 0.5;
+    opacity: 0.9;
 }
 
 body {
@@ -213,7 +213,6 @@ a {
 /* Activities section and iframe videos  */
 .activities {
     width: 100%;
-
 }
 
 #video-left {
@@ -221,7 +220,6 @@ a {
     height: 320px;
     margin: 30px auto 90px 90px;
     
-    border: 0;
     clear: both;
     float: left;
 }
@@ -258,9 +256,11 @@ a {
     text-align: center;
 }
 
-.restaurants iframe {
-    width: auto;
-    height: 400px;
+.restaurants img {
+    width: 300px;
+    height: 500px;
+    border-radius: 10px 10px 10px 10px;
+    border: 3px solid #54655A;
 }
 
 .restaurants h3 {
@@ -275,9 +275,10 @@ a {
 
 /* Signup forms and social media links */
 .container-3 {
+    margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
-    height: 1000px;
+    height: 600px;
     text-align: center;
     width: 100%;
 }
@@ -290,6 +291,10 @@ a {
     letter-spacing: 2px;
     text-decoration: underline;
     text-decoration-thickness: 2.5px;
+}
+
+.container-3 p {
+    margin: 30px auto 50px auto;
 }
 
 #form-section {
@@ -332,3 +337,15 @@ a {
     background-color: #80BA4D;
 }
 
+/* Social media links */
+footer {
+    width: 100%;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.links {
+    display: inline-block;
+    font-size: 300%;
+    margin: 0 40px 40px 40px;
+}
