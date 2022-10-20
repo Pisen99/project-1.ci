@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto:wght@300&display=swap');
 
 /* Basic styling */
-element.style {
+* {
     margin-left: auto;
     margin-right: auto;
 }
@@ -17,7 +17,7 @@ header {
 }
 
 body {
-    margin: 0;
+    margin: 0 1px;
     padding: 0;
     
     background-color: #fffaf1;
@@ -179,10 +179,13 @@ a {
 }
 
 #about-image-left img {
-    width: 500px;
+    width: 100%;
+    aspect-ratio: 1;
+
     opacity: 0.8;
-    height: 500px;
     border-radius: 50%;
+
+    float: left;
 }
 
 #about-right {
@@ -224,7 +227,6 @@ a {
     height: 320px;
     margin: 30px 90px 90px auto;
 
-    border: 0;
     clear: both;
     
     float: right;
@@ -317,6 +319,7 @@ a {
 
 .form-input {
     width: 50%;
+    padding: 5px;
 }
 
 #button {
@@ -347,6 +350,11 @@ footer {
 
 /* Media queries */
 @media screen and (max-width: 420px) {
+    body {
+        margin: 2px;
+        text-align: center;
+    }
+
     header {
         width: 100%;
         height: auto;
@@ -354,17 +362,24 @@ footer {
     }
 
     #logo {
+        width: 100%;
+        margin: 0 auto;
         display: none;
+        text-align: center;
+        font-size: 2.8rem;
     }
 
     #menu {
         font-size: 15px;
-        margin: auto;
+        margin: 0 auto;
         padding: 0;
+
+        display: flex;
     }
 
     #menu li {
-        margin: 0 10px ;
+        padding: 5px;
+        display: flex;
     }
 
     #main-image-container {
@@ -397,18 +412,20 @@ footer {
     #activities-1 {
         width: 100%;
         height: auto;
+        border: 0;
     }
 
     #activities-1 iframe {
         width: 100%;
         height: 20%;
         margin: 0;
+        border: 0;
     }
 
     #summer, #winter {
         margin: 0;
         width: 100%;
-        text-align: left;
+        text-align: center;
         font-size: 2vh;
     }
 
@@ -433,7 +450,7 @@ footer {
         margin: 0;
 
         font-size: 2vh;
-        text-align: left;
+        text-align: center;
     }
 
     #signup {
@@ -449,5 +466,10 @@ footer {
 
     #gap {
         padding-bottom: 0;
+    }
+
+    footer ul {
+        width: 100%;
+        text-align: center;
     }
 }
