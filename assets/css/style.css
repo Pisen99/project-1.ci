@@ -7,7 +7,6 @@ element.style {
 }
 
 header {
-    outline: 0;
     background: rgb(255, 250, 241);
     position: fixed;
     left: 0px;
@@ -20,10 +19,6 @@ header {
 body {
     margin: 0;
     padding: 0;
-
-    max-width: 1800px;
-    margin-left: auto;
-    margin-right: auto;
     
     background-color: #fffaf1;
 }
@@ -348,4 +343,32 @@ footer {
     display: inline-block;
     font-size: 300%;
     margin: 0 40px 40px 40px;
+}
+
+/* Media queries */
+@media screen and (max-width: 320px) {
+    header {
+        width: 100%;
+        height: auto;
+        position: absolute;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    #menu {
+        font-size: 15px;
+        margin: auto;
+        padding: 0;
+    }
+
+    #menu li {
+        margin: 0 10px ;
+    }
+
+    #main-image-container {
+        margin: 0;
+        height: 20vh;
+    }
 }
