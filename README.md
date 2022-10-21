@@ -4,7 +4,7 @@ Borgafjäll is a website that reaches out to the people that has never before vi
 The site is for the visitor so they can collect as much information they need about this place.
 The visitor should get fast and simble facts about Borgafjäll, from activities to accomodation and dining.
 Direct links to the different companies so the visitor really can get the feel for how smal this place is with a good variaty of activites to do.
-/* Picture of media query */
+<img src="assets/readme-images/devices.png" alt="Devices">
 
 
 ## Index - table of contents
@@ -71,7 +71,8 @@ Credits
       I wanted the whole page to have one common thread.
       The green in the main image goes well togheter with the other colors on the page.
       The cover-text matching the backround color (#fffaf1), the green in the image matching the menu when you hover over it.
-### Dining images has a thin line of a green frame around them matching the rest of the text in the website.
+### Dining
+      images has a thin line of a green frame around them matching the rest of the text in the website.
       
 ### Color Scheme
       I used three colors when building the website, #fffaf1, #54655A and #80BA4D.
@@ -90,7 +91,7 @@ Credits
 ## Technological used
   
 ### Language used,
-      HTML5
+      HTML5 
       CSS3
       
 ### Programs and Libraries used,
@@ -102,9 +103,13 @@ Credits
 ## Validator test
       
 ### HTML:
+<img src="assets/readme-images/html.png" alt="validator html">
 
 ### CSS:
+<img src="assets/readme-images/css.png" alt="Validator css">
 
+## Lighthouse:
+<img src="assets/readme-images/lighthouse.png" alt="lighthouse">
 
 ## Credits
 
