@@ -172,28 +172,28 @@ a {
 
 /* About section, text and image */
 #about-image-left {
-    margin-top: 80px;
-    margin-left: 10px;
-    width: 48%;
+    margin-top: 5vh;
+    margin-left: 10vh;
+    width: 40vw;
+    height: 100%;
     float: left;
 }
 
 #about-image-left img {
-    width: 100%;
-    aspect-ratio: 1;
-
+    width: 30vw;
+    height: 30vw;
     opacity: 0.8;
     border-radius: 50%;
 
-    float: left;
+    margin-top: 15vh;
 }
 
 #about-right {
-    margin-top: 130px;
-    margin-right: 100px;
-    width: 40%;
+    margin-top: 15vh;
+    margin-right: 10vh;
+    width: 40vw;
+    height: 100%;
     float: right;
-
     text-align: left;
     line-height: 2;
 }
@@ -348,8 +348,12 @@ footer {
     margin: 0 40px 40px 40px;
 }
 
-/* Media queries */
-@media screen and (max-width: 420px) {
+
+
+
+
+/* Media queries max 768px */
+@media screen and (max-width: 768px) {
     body {
         margin: 2px;
         text-align: center;
@@ -364,17 +368,17 @@ footer {
     #logo {
         width: 100%;
         margin: 0 auto;
-        display: none;
         text-align: center;
         font-size: 2.8rem;
     }
 
     #menu {
-        font-size: 15px;
+        font-size: 3vh;
         margin: 0 auto;
-        padding: 0;
-
         display: flex;
+        justify-content: space-between;
+        text-align: center;
+        float: none;
     }
 
     #menu li {
@@ -383,7 +387,6 @@ footer {
     }
 
     #main-image-container {
-        margin: 0;
         height: 20vh;
     }
 
@@ -397,16 +400,30 @@ footer {
         height: auto;
     }
 
+    #about-image-left {
+        margin-top: 5vh;
+        margin-left: 0;
+        width: 100vw;
+        height: 50vh;
+    }
+
     #about-image-left img {
         width: 50vh;
         height: 50vh;
+        margin-top: 0;
     }
 
     #about-right {
         margin: 0;
-        width: 100%;
-        text-align: left;
+        width: 100vw;
+        text-align: center;
         font-size: 2vh;
+        height: auto;
+    }
+
+    .activities {
+        width: 60vh;
+        height: 45vw;
     }
 
     #activities-1 {
@@ -416,8 +433,8 @@ footer {
     }
 
     #activities-1 iframe {
-        width: 100%;
-        height: 20%;
+        width: 60vh;
+        height: 45vw;
         margin: 0;
         border: 0;
     }
@@ -437,11 +454,12 @@ footer {
     #dining h2 {
         width: 100%;
         height: auto;
-        margin: 0;
+        margin-top: 2.5vh;
     }
 
     .restaurants {
         width: 100%;
+        margin: 2.5vh auto;
     }
 
     .rest-text {
@@ -465,11 +483,195 @@ footer {
     }
 
     #gap {
-        padding-bottom: 0;
+        padding-bottom: 100vh;
     }
 
     footer ul {
         width: 100%;
+        padding: 0;
+    }
+}
+
+/* Media queries max 320px */
+@media screen and (max-width:320px) {
+
+    #menu {
+        font-size: 2.5vh;
+    }
+
+    .activities {
+        width: 100vw;
+        height: 30vh;
+    }
+
+    #activities-1 iframe {
+        width: 100vw;
+        height: 30vh;
+        margin: 0;
+        border: 0;
+    }
+
+    #gap {
+        padding: 0;
+    }
+
+    #dining h2 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Media queries min 3840px */
+@media screen and (min-width:3840px) {
+    #logo {
+        float: left;
+        margin: 10px 10px 10px 30px;
+        font-size: 10vh;
+        font-weight: bold;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+
+    #menu {
+        float: right;
+        margin: 30px;
+        font-size: 5vh;
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        line-height: 10vh;
+    }
+
+    .container {
+        width: 100%;
+        height: 60vh;
+        margin: 0 auto;
         text-align: center;
+        }
+
+        #about-image-left {
+            margin-left: 10vh;
+            width: 40vw;
+            height: 100%;
+            float: left;
+            margin-top: 0;
+        }
+
+    #main-image-container {
+        width: 100%;
+        height: 50vh;
+    }
+
+    #about-image-left img {
+        width: 25vw;
+        height: 25vw;
+        border-radius: 50%;
+        margin-top: 15vh;
+    }
+
+    #about-right {
+        margin-top: 15vh;
+        margin-right: 10vh;
+        width: 40vw;
+        height: auto;
+        float: right;
+        text-align: center;
+        
+        font-size: 1.9vh;
+    }
+
+    #cover-text {
+        height: 20vh;
+        margin: 2.5vh;
+        margin-top: 10vh;
+        font-size: 8vh;
+    }
+    
+    .container-1 h2 {
+        font-size: 8vh;
+    }
+
+    #video-left {
+        width: 35vw;
+        height: 35vh;
+        margin-left: 15vh;
+    }
+
+    #video-right {
+        width: 35vw;
+        height: 35vh;
+        margin-right: 15vh;
+    }
+
+    #summer {
+        width: 35vw;
+        float: right;
+        text-align: left;
+        font-size: 1.6vh;
+        margin-right: 15vh;
+    }
+
+    #winter {
+        width: 35vw;
+        float: left;
+        text-align: left;
+        font-size: 1.6vh;
+        margin-left: 15vh;
+    }
+
+    .container-1 {
+        height: 100vh;
+    }
+
+    .container-2 h2 {
+        font-size: 8vh;
+    }
+
+    .container-2 {
+        height: 120vh;
+    }
+
+    .container-3 {
+        height: 60vh;
+    }
+
+    .container-3 h2 {
+        font-size: 8vh;
+    }
+
+    .container-3 p {
+        font-size: 2.5vh;
+    }
+
+    .restaurants {
+        width: 25%;
+    }
+
+    .restaurants img {
+        width: 20vw;
+        height: 60vh;
+    }
+
+    .rest-text {
+        font-size: 1.9vh;
+    }
+
+    #form-section {
+        font-size: 2vh;
+    }
+
+    .form-input {
+        height: 3vh;
+        font-size: 2vh;
+    }
+
+    #button {
+        width: 50%;
+        height: 5vh;
+        font-size: 4vh;
+    }
+
+    footer {
+        font-size: 2vh;
     }
 }
