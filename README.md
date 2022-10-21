@@ -9,11 +9,16 @@ Direct links to the different companies so the visitor really can get the feel f
 
 ## Index - table of contents
 
-User experience 
+User experience
+<br> 
 Features
+<br> 
 Design
+<br> 
 Technologies used
+<br> 
 Testing
+<br> 
 Credits
 
 ### A.First Time Visitor Goals
@@ -29,6 +34,7 @@ Credits
 ### C,Frequent User Goals
   a. As a Frequent visitor, I want to be able to sign up with my email for any news of events or the weather situation.
   
+
 ## Existing Features
   
    ### F1, Navigationbar
@@ -59,7 +65,7 @@ Credits
       Visitor can book it themselves, it can be challanging since there´s no airport or hospitals close in case of emergency.
       
 
-  ## Design
+## Design
 
 ### Imagery
       I wanted the whole page to have one common thread.
@@ -79,8 +85,9 @@ Credits
       I realised this practice i used was more complicated than I thought it would be.
       Unfortunatley I could not use flexbox since I didnt know how it worked.
       I realised to late that "@media screen and (max-width: ___px)" was to much for me.
-      
-  ## Technological used
+
+
+## Technological used
   
 ### Language used,
       HTML5
@@ -90,7 +97,8 @@ Credits
       Google fonts used to import "Roboto, sans-serif" and "Amatic SC', cursive"
       Font Awesome used to get icons in the footer
       Github/Gitpod used to save code, commits and pushes.
-      
+
+
 ## Validator test
       
 ### HTML:
